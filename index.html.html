@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Web Performance accompagne vos projets de création de sites web et de solutions numériques.">
+        <link rel="stylesheet" href="style.css">
+        <title>Web Performance — Création web et solutions numériques</title>
+    </head>
+    <body>
+        <header class="site-header">
+            <a class="site-logo" href="#accueil" aria-label="Web Performance, accueil">
+                <img class="site-logo__image" src="logo%20entreprise.png" alt="">
+            </a>
+            <button
+                class="site-nav-toggle"
+                type="button"
+                aria-controls="site-navigation"
+                aria-expanded="false"
+                aria-label="Ouvrir le menu"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="site-nav" id="site-navigation" aria-label="Navigation principale">
+                <a href="#accueil">Accueil</a>
+                <a href="#services">Services</a>
+                <a href="#projets">Exemples</a>
+                <a href="#approche">Notre approche</a>
+                <a href="#apropos">À propos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero page-width" id="accueil">
+                <div class="hero__content">
+                    <p class="eyebrow">Votre partenaire digital</p>
+                    <h1>Le web au service de <span>vos ambitions.</span></h1>
+                    <p class="hero__description">Création de sites web et solutions numériques pour donner vie à vos projets.</p>
+                    <a class="button" href="#services">Découvrir nos services <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="hero__visual">
+                    <img
+                        class="hero__image"
+                        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&amp;fit=crop&amp;w=1200&amp;q=85"
+                        alt="Espace de travail avec un ordinateur portable utilisé pour le développement web"
+                        fetchpriority="high"
+                    >
+                </div>
+            </section>
+
+            <section class="services section page-width" id="services">
+                <div class="section-heading">
+                    <p class="eyebrow">Ce que nous faisons</p>
+                    <h2>Des solutions pensées pour vous.</h2>
+                    <p>Les bons outils numériques peuvent faire avancer chaque projet. Voici comment nous pouvons vous aider.</p>
+                </div>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <img
+                            class="service-card__image"
+                            src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Maquette de site web affichée sur un écran"
+                            loading="lazy"
+                        >
+                        <div class="service-card__body">
+                            <span class="service-card__number">01</span>
+                            <h3>Création de sites web</h3>
+                            <p>Un site clair et soigné pour présenter votre activité et accueillir vos visiteurs sur tous les écrans.</p>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <img
+                            class="service-card__image"
+                            src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Équipe échangeant autour d’un projet numérique"
+                            loading="lazy"
+                        >
+                        <div class="service-card__body">
+                            <span class="service-card__number">02</span>
+                            <h3>Solutions numériques</h3>
+                            <p>Des outils web adaptés à vos besoins pour simplifier vos démarches et mieux servir vos clients.</p>
+                        </div>
+                    </article>
+                    <article class="service-card">
+                        <img
+                            class="service-card__image"
+                            src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                            alt="Tableau de bord numérique présentant des graphiques de performance"
+                            loading="lazy"
+                        >
+                        <div class="service-card__body">
+                            <span class="service-card__number">03</span>
+                            <h3>Performance web</h3>
+                            <p>Une attention portée à la rapidité, à l’accessibilité et au confort d’utilisation de votre site.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="projects section page-width" id="projets">
+                <div class="section-heading">
+                    <p class="eyebrow">Quelques idées</p>
+                    <h2>Des projets adaptés à votre activité.</h2>
+                    <p>Voici des exemples de besoins que nous pouvons étudier ensemble. Ces visuels sont illustratifs et ne représentent pas des réalisations client.</p>
+                </div>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img
+                            class="project-card__image"
+                            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                            alt="Espace de travail lumineux pour une activité professionnelle"
+                            loading="lazy"
+                        >
+                        <div class="project-card__body">
+                            <p class="project-card__type">Exemple de besoin</p>
+                            <h3>Présenter une activité</h3>
+                            <p>Un site vitrine pour expliquer votre offre et permettre à vos clients de vous trouver facilement.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img
+                            class="project-card__image"
+                            src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                            alt="Paiement effectué avec une carte dans une boutique"
+                            loading="lazy"
+                        >
+                        <div class="project-card__body">
+                            <p class="project-card__type">Exemple de besoin</p>
+                            <h3>Vendre en ligne</h3>
+                            <p>Une boutique en ligne simple à parcourir pour présenter vos produits et faciliter les commandes.</p>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img
+                            class="project-card__image"
+                            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&amp;fit=crop&amp;w=900&amp;q=80"
+                            alt="Ordinateur affichant des graphiques et des données"
+                            loading="lazy"
+                        >
+                        <div class="project-card__body">
+                            <p class="project-card__type">Exemple de besoin</p>
+                            <h3>Suivre son activité</h3>
+                            <p>Un outil numérique pour organiser des informations et visualiser les données utiles à votre activité.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="process section page-width" id="processus">
+                <div class="section-heading">
+                    <p class="eyebrow">Comment ça se passe</p>
+                    <h2>Un projet, trois étapes simples.</h2>
+                    <p>Un déroulement clair pour avancer ensemble, de votre première idée jusqu’à la mise en ligne.</p>
+                </div>
+                <ol class="process-list">
+                    <li class="process-step">
+                        <span class="process-step__number">01</span>
+                        <h3>On fait connaissance</h3>
+                        <p>Vous nous expliquez votre activité, vos besoins et ce que vous souhaitez accomplir.</p>
+                    </li>
+                    <li class="process-step">
+                        <span class="process-step__number">02</span>
+                        <h3>On imagine la solution</h3>
+                        <p>Nous définissons ensemble les grandes lignes d’une réponse adaptée à votre projet.</p>
+                    </li>
+                    <li class="process-step">
+                        <span class="process-step__number">03</span>
+                        <h3>On donne vie au projet</h3>
+                        <p>Nous réalisons la solution retenue et faisons le point avec vous avant sa mise en ligne.</p>
+                    </li>
+                </ol>
+                <a class="text-link process__link" href="#contact">Parlons de votre projet <span aria-hidden="true">→</span></a>
+            </section>
+
+            <section class="approach section page-width" id="approche">
+                <div class="approach__accent" aria-hidden="true"></div>
+                <div class="approach__content">
+                    <p class="eyebrow">Notre approche</p>
+                    <h2>Du sur-mesure, en toute simplicité.</h2>
+                    <p>Chaque projet commence par une écoute attentive de vos besoins. L’objectif : concevoir une présence en ligne utile, facile à utiliser et fidèle à votre activité.</p>
+                    <a class="text-link" href="#services">Explorer les services <span aria-hidden="true">→</span></a>
+                </div>
+                <div class="approach__quote">
+                    <span aria-hidden="true">“</span>
+                    <p>Un projet réussi commence par une idée bien comprise.</p>
+                </div>
+            </section>
+
+            <section class="about section page-width" id="apropos">
+                <div class="about__image-wrap">
+                    <img
+                        class="about__image"
+                        src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&amp;fit=crop&amp;w=1000&amp;q=80"
+                        alt="Des collègues échangent autour d’un projet"
+                        loading="lazy"
+                    >
+                </div>
+                <div class="about__content">
+                    <p class="eyebrow">À propos</p>
+                    <h2>Un accompagnement attentif, de l’idée à la mise en ligne.</h2>
+                    <p>Web Performance conçoit des sites web et des solutions numériques en partant des objectifs et des besoins de chaque projet.</p>
+                    <p>Nous privilégions une démarche claire : comprendre votre activité, définir ensemble les priorités et créer une expérience facile à utiliser sur ordinateur comme sur téléphone.</p>
+                    <a class="text-link about__link" href="#contact-form">Échanger sur votre projet <span aria-hidden="true">→</span></a>
+                </div>
+            </section>
+
+            <section class="contact section page-width" id="contact">
+                <div class="contact__intro">
+                    <p class="eyebrow">Contact</p>
+                    <h2>Parlons de votre projet.</h2>
+                    <p>Décrivez votre besoin et envoyez-nous votre demande.</p>
+                    <div class="contact__details">
+                        <p><span>E-mail</span><a href="mailto:backertwebmaster@gmail.com">backertwebmaster@gmail.com</a></p>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <label for="contact-name">Votre nom</label>
+                    <input id="contact-name" name="name" type="text" autocomplete="name" required>
+
+                    <label for="contact-email">Votre adresse e-mail</label>
+                    <input id="contact-email" name="email" type="email" autocomplete="email" required>
+
+                    <label for="contact-message">Parlez-nous de votre projet</label>
+                    <textarea id="contact-message" name="message" rows="5" required></textarea>
+
+                    <button class="button" type="submit">Envoyer ma demande <span aria-hidden="true">→</span></button>
+                    <p class="contact-form__status" id="contact-form-status" role="status" aria-live="polite"></p>
+                    <p class="contact-form__note">Votre demande sera envoyée par e-mail. Si vous rencontrez un problème, écrivez directement à <a href="mailto:backertwebmaster@gmail.com">backertwebmaster@gmail.com</a>.</p>
+                    <noscript><p class="contact-form__note">Activez JavaScript pour utiliser le formulaire, ou écrivez directement à <a href="mailto:backertwebmaster@gmail.com">backertwebmaster@gmail.com</a>.</p></noscript>
+                </form>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <a class="site-logo" href="#accueil">
+                <img class="site-logo__image" src="logo%20entreprise.png" alt="Web Performance">
+            </a>
+            <p>Création de sites web et solutions numériques.</p>
+        </footer>
+        <script src="script.js?v=20261019-formsubmit" defer></script>
+    </body>
+</html>
